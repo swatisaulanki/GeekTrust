@@ -1,0 +1,57 @@
+.Navbar{
+    /* border:2px solid red; */
+    display:flex;
+    justify-content: space-around;
+    font-size: 25px;
+    text-align: center;
+    padding: 4px 4px;
+    width: 99.4%;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    background-color: rgb(185, 206, 252);
+    font-weight: 600;
+
+}
+.Products{
+    display:flex;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.icons{
+    /* border: 3px solid blue; */
+
+    height: 35px;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+@media  only screen  and (max-width:800px) {
+    .Navbar{
+        display:flex;
+        justify-content: space-around;
+        font-size: 25px;
+        text-align: center;
+        padding: 4px 4px;
+        width: 98.9%;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        background-color: rgb(185, 206, 252);
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .Navbar{
+        display:flex;
+        justify-content: space-around;
+        font-size: 25px;
+        text-align: center;
+        padding: 4px 4px;
+        width: 99.8%;
+        box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+        background-color: rgb(185, 206, 252);
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,127 @@
+.parentBox{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 12px;
+}
+.homecontain{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    gap: 30px;
+    margin-top: 20px;
+}
+.homecontains{
+    height: 52vh;
+    width: 17vw;
+margin: auto;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.homecontains img{
+    height: 30vh;
+}
+.homecontains p{
+    font-size: 18px;
+}
+.homecontains button{
+    width: 38%;
+    font-size: 14px;
+    /* margin: auto;
+    text-align: center; */
+    border: none;
+    background-color: rgb(11, 11, 11);
+    color: white;
+    margin-top: 5px;
+    margin-left: 28px;
+    border-radius: 10px;
+
+}
+.priceflex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:800px){
+
+    .homecontain{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .homecontains{
+        border: 2px solid rgb(55, 0, 255);
+
+        height: 50vh;
+        width: 45vw;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .homecontains img{
+        height: 30vh;
+    }
+    .homecontains p{
+        font-size: 15px;
+    }
+    .homecontains button{
+        width: 38%;
+        font-size: 12px;
+        /* margin: auto;
+        text-align: center; */
+        border: none;
+        background-color: rgb(11, 11, 11);
+        color: white;
+        margin-top: 5px;
+        margin-left: 28px;
+        border-radius: 10px;
+    
+    }
+    .priceflex{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+
+}
+@media only screen and (max-width:500px)
+{
+    .homecontain{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 30px;
+        margin-top: 30px;
+    }
+    .homecontains{
+        height: 52vh;
+        width: 60vw;
+
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    }
+    .homecontains img{
+        height: 30vh;
+    }
+    .homecontains p{
+        font-size: 18px;
+    }
+    .homecontains button{
+        width: 38%;
+        font-size: 14px;
+        /* margin: auto;
+        text-align: center; */
+        border: none;
+        background-color: rgb(11, 11, 11);
+        color: white;
+        margin-top: 5px;
+        margin-left: 28px;
+        border-radius: 10px;
+    
+    }
+    .priceflex{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    
+}
